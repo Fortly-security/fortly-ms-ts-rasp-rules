@@ -1,0 +1,23 @@
+{
+  "name": "fortly-ms-ts-rasp-rules",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "wrangler deploy --dry-run",
+    "test": "jest --coverage",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {
+    "@aws-lambda-powertools/logger": "^2.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.0.0",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^22.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0",
+    "wrangler": "^4.0.0"
+  }
+}
