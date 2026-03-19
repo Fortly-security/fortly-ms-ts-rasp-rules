@@ -10,4 +10,4 @@ id = "583ea681292e4aacb5654af8d03764d5"
 [[d1_databases]]
 binding = "DB_VIRTUAL_PATCHES"
 database_name = "pragma-fortly-dev-d1-rasp-virtual-patches"
-database_id = "placeholder-virtual-patches-id"
+database_id = "e32fcf12-a906-44a2-8a07-ab485593c1dd"
